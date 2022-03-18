@@ -1,3 +1,4 @@
+import Chatview from "../component/Chatview";
 import ConversationList from "../component/ConversationList";
 import Sidebar from "../component/Sidebar";
 import styles from "../styles/Home.module.css";
@@ -8,6 +9,7 @@ export default function Home() {
       <Sidebar />
       <div className={styles.main}>
         <ConversationList />
+        <Chatview />
       </div>
     </div>
   );
